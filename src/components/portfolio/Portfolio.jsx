@@ -1,25 +1,27 @@
 import './portfolio.css'
 import React from 'react'
-import IMG1 from '../../assets/portfolio6.jpg'
+import BUS from '../../assets/bus.jpg'
+import DATA from '../../assets/data.jpg'
+import TODO from '../../assets/todo.jpg'
 
 const data = [
   {
     id: 1,
-    image: IMG1,
+    image: BUS,
     title: 'Bus Management System',
-    github: 'https//github.com/ryanido',
+    github: 'https://github.com/ryanido/Bus-Management-System',
   },
   {
     id: 2,
-    image: IMG1,
+    image: DATA,
     title: 'Covid Visualisation App',
-    github: 'https//github.com/ryanido',
+    github: 'https://github.com/ryanido/Covid-19-Visualisation-App',
   },
   {
     id: 3,
-    image: IMG1,
-    title: 'Analytics Dashboard',
-    github: 'https//github.com/ryanido',
+    image: TODO,
+    title: 'To-do App',
+    github: 'https://github.com/ryanido/To-Do-App',
   }
 ]
 

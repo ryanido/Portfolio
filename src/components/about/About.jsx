@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import { FaAward } from 'react-icons/fa'
 import { VscFolderLibrary } from 'react-icons/vsc'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/RI.png'
 
 const About = () => {
   return (
@@ -27,15 +27,14 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>3+ Completed</small>
+              <small>2+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Blanditiis dolore aperiam vero necessitatibus enim, amet,
-            magnam quos laborum iusto fuga, 
-            quaerat minima deleniti eius expedita unde facilis iure consectetur iste!
+            I'm a Computer Science and Business Student and aspiring Software Engineer.
+            I'm an hardworking individual who's eager to learn new things. I'm experienced in a wide range of technologies and have no problem
+            working in backend or frontend.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Lets Talk</a>

@@ -1,7 +1,7 @@
 header {
     height: 100vh;
     padding-top: 7rem;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .header__container {
@@ -39,14 +39,13 @@ header {
 
 /* =================== HEADER SOCIALS ============= */
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    /* background: linear-gradient(var(--color-primary), transparent); */
     width: 22rem;
-    height: 30rem;
+    height: 40rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
+    overflow: hidden; 
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
@@ -65,6 +64,7 @@ header {
 @media screen and (max-width: 1024px) {
     header {
         height: 68vh;
+        overflow: hidden;
     }
 }
 
@@ -73,6 +73,7 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+        overflow: hidden;
     }
 
     .header__socials,
