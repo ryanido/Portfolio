@@ -27,14 +27,12 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>2+ Completed</small>
+              <small>4+ Completed</small>
             </article>
           </div>
 
           <p>
-            I'm a Computer Science and Business Student and aspiring Software Engineer.
-            I'm an hardworking individual who's eager to learn new things. I'm experienced in a wide range of technologies and have no problem
-            working in backend or frontend.
+          I am a student of Computer Science and Business, with a passion for software engineering. I am a dedicated and proactive learner, with experience in various technologies. I am comfortable working on both backend and frontend projects. Currently, my focus is on frontend mobile app development using React Native, and I am actively working on multiple mobile app projects.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Lets Talk</a>

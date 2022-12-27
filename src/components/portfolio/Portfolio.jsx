@@ -3,26 +3,36 @@ import React from 'react'
 import BUS from '../../assets/bus.jpg'
 import DATA from '../../assets/data.jpg'
 import TODO from '../../assets/todo.jpg'
+import MUSIC from "../../assets/music.png"
+import NETWORK from "../../assets/network.png"
 
 const data = [
   {
-    id: 1,
+    image: MUSIC,
+    title: 'Musaic',
+    github: 'https://github.com/ryanido/musaic'
+  },
+  {
+    image: NETWORK,
+    title: 'Networking App',
+    github:'https://github.com/DanielMadaghjian/Networking-App'
+  },
+  {
     image: BUS,
     title: 'Bus Management System',
     github: 'https://github.com/ryanido/Bus-Management-System',
   },
   {
-    id: 2,
     image: DATA,
     title: 'Covid Visualisation App',
     github: 'https://github.com/ryanido/Covid-19-Visualisation-App',
   },
   {
-    id: 3,
     image: TODO,
     title: 'To-do App',
     github: 'https://github.com/ryanido/To-Do-App',
-  }
+  },
+ 
 ]
 
 
@@ -34,9 +44,9 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className='container portfolio__container'>
         {
-          data.map(({ id, image, title, github }) => {
+          data.map(({image, title, github }) => {
             return (
-              <div key={id} className="portfolio__item-cta">
+              <div key={title} className="portfolio__item-cta">
                 <article className='portfolio__item'>
                   <div className='portfolio__item-image'>
                     <img src={image} alt="" />
