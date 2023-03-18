@@ -5,6 +5,7 @@ import DATA from '../../assets/data.jpg'
 import TODO from '../../assets/todo.jpg'
 import MUSIC from "../../assets/music.png"
 import NETWORK from "../../assets/network.png"
+import SHOE from '../../assets/shoe.png'
 
 const data = [
   {
@@ -32,6 +33,11 @@ const data = [
     title: 'To-do App',
     github: 'https://github.com/ryanido/To-Do-App',
   },
+  {
+    image: SHOE,
+    title: 'Shoe-Customiser',
+    github: 'https://github.com/ryanido/shoe-customiser'
+  }
  
 ]
 
